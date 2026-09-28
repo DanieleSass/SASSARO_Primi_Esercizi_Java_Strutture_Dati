@@ -25,6 +25,10 @@ public class RichiestaHttp{
         return statusCode;
     }
 
+    public long getTempoRispostaMs() {
+        return tempoRispostaMs;
+    }
+
     @Override
     public String toString(){
         return "IP: "+ ip+ " Path: "+path + " Codice: "+ statusCode+ " tempo Risposta: "+ tempoRispostaMs+ " timeStamp: "+ timestamp;

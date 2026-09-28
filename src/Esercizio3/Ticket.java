@@ -17,8 +17,37 @@ public class Ticket implements  Comparable<Ticket>{
         return livello;
     }
 
+    public Long getTimestampArrivo() {
+        return timestampArrivo;
+    }
+
+    public String getDescrizione() {
+        return descrizione;
+    }
+
+    public String getId() {
+        return id;
+    }
+
     @Override
     public int compareTo(Ticket o) {
-        return 0;
+
+        // output <0->this viene prima dell'oggetto passato come parametro->ha priorità + alta
+        //output = 0 sono uguali
+        //output > 0->this va dopo l'oggetto parametro->ha meno priorità
+
+        //ordinal guarda la posizione
+        //0 è il primo, quindi Critico, 3 è Basso pk è ultimo
+        int confronto = Integer.compare(this.livello.ordinal(), o.livello.ordinal());
+
+        //se non sono uguali
+        if(confronto!=0){
+            return confronto;
+        }
+
+        //se hanno lo stesso livello
+        //controlla chi ha il timestamp + vecchio
+        int confrontoTimestampVecchio = Long.compare(this.timestampArrivo, o.timestampArrivo);
+        return confrontoTimestampVecchio;
     }
 }

@@ -1,0 +1,27 @@
+    ID |  LIVELLO |  DURATA(m) |                              DESCRIZIONE |        COMPLETAMENTO
+ T0001 |  Critico |         15 |                            Descrizione 1 | 15
+ T0006 |  Critico |         15 |                            Descrizione 6 | 30
+ T0011 |  Critico |         15 |                           Descrizione 11 | 45
+ T0015 |  Critico |         15 |                           Descrizione 15 | 60
+ T0004 |     Alto |         30 |                            Descrizione 4 | 90
+ T0002 |     Alto |         30 |                            Descrizione 2 | 130
+ T0009 |     Alto |         30 |                            Descrizione 9 | 160
+ T0012 |     Alto |         30 |                           Descrizione 12 | 190
+ T0016 |     Alto |         30 |                           Descrizione 16 | 220
+ T0005 |    Medio |         60 |                            Descrizione 5 | 280
+ T0007 |    Medio |         60 |                            Descrizione 7 | 340
+ T0008 |    Medio |         60 |                            Descrizione 8 | 400
+ T0014 |    Medio |         60 |                           Descrizione 14 | 460
+ T0017 |    Medio |         60 |                           Descrizione 17 | 520
+ T0003 |    Basso |        120 |                            Descrizione 3 | 640
+ T0010 |    Basso |        120 |                           Descrizione 10 | 760
+ T0013 |    Basso |        120 |                           Descrizione 13 | 880
+
+Riepilogo finale:
+Ticket totali:17
+Tempo totale minuti: 880
+Tempo totale ore: 14,67
+CRITICO: 4 biglietti 
+ALTO: 5 biglietti 
+MEDIO: 5 biglietti 
+BASSO: 3 biglietti 
